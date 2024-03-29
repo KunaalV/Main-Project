@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KnowIT</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section class="header">
+    <nav class="navbar sticky-top pt-3">
+      <a href="index.html"><img class="ms-3" src="./images/the real logo.png" alt="" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./course.html">COURSE</a></li>
+          <!-- <li><a href="./login.html">LOGIN</a></li> -->
+          <li><button class="btn btn-outline-danger"><a href="login.html">Login</a></button></li>
+
+          <!-- <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li> -->
+        </ul>
+      </div>
+      <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>AI Based IT Training</h1>
+      <p>
+        Making IT Training easy with AI
+        <br>
+      </p>
+      <!-- <a href="" class="hero-btn">Visit Us to Know More</a> -->
+    </div>
+  </section>
+
+  <!-- course -->
+
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Few of most chosen courses</p>
+    <div class="row">
+      <div class="course-col">
+        <a href="course.html"><h3>Project Management</h3></a>
+        <p>The project management scope includes strategic design, project planning, budget management, program
+          implementation and reporting. It teaches students concepts like bussiness growth strategies, marketing
+          strategies, leadership, problem solving, communication skill and time management.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Web Development</h3>
+        <p> If you want to become a web developer or designer you would need to be well versed in HTML, CSS and JS.
+          These courses teach candidates to build back end APIs, scalable websites and interactive Web UIs.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Cyber Security</h3>
+        <p> A cyber security certification can supplement your resume's qualifications with specialised learning in
+          subjects like cryptography, network security, computer networks and application security. Software developers
+          tech managers, testing and coding professionals find this course of study relevant to their line of work.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- FEATURES -->
+  <section class="campus">
+    <h1>Our Features</h1>
+    <p></p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="./images/AI based pic.png" alt="">
+        <div class="layer">
+          <h3>ARTIFICIAL INTELLIGENCE</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="./images/personalized learning paths pic.png" alt="">
+        <div class="layer">
+          <h3>PERSONALIZED LEARNING </h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="./images/real time progresstracking pic.png" alt="">
+        <div class="layer">
+          <h3>PREDICTIVE ANALYTICS</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----- Call to action ------>
+
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses</h1>
+    <!-- <a href="" class="hero-btn">CONTACT US</a> -->
+  </section>
+
+  <!--------- footer --------->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Stay connected with KnowIT by following our social medias</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

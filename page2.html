@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KnowIT</title>
+    <link rel="stylesheet" href="page2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <section class="sub-header">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+        </head>
+        <nav class="navbar sticky-top pt-3">
+            <a href="index.html"><img src="./images/the real logo.png" alt="" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Courses</h1>
+    </section>
+    <!-- <style>
+        .sub-header {
+            height: 50vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+                url(./images/projectmanagementpic.jpg);
+            background-position: bottom;
+            background-size: cover;
+            text-align: center;
+            color: whitesmoke;
+            ;
+        }
+
+        .nav {
+            margin-top: 30px;
+        }
+
+        .about-us img {
+            width: 45%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+        .part1 {
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .part1 h1 {
+            font-size: 5em;
+        }
+
+        #part2 {
+            width: 70%;
+            float: left;
+            padding: 20px;
+            border-right: 2px solid #333;
+            /* Vertical line between part2 and part3 */
+            box-sizing: border-box;
+            /* Include padding and border in the width calculation */
+        }
+
+        #part3 {
+            width: 30%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+            padding-bottom: 0px;
+            /* Include padding in the width calculation */
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .modal-body ul{
+            margin: 0px;
+            padding: 0px;
+            margin-left: 7px ;
+            list-style: square;
+        }
+    </style> -->
+    </head>
+
+    <body>
+        <div class="part1">
+            <h1>Project</h1>
+            <h1>Management</h1>
+            <p></p>
+        </div>
+
+        <div id="part2">
+            <h2>What is Project Management?</h2>
+            <h>Project management in the IT sector is a multifaceted discipline that requires a combination of technical
+                knowledge, leadership skills, and the ability to adapt to rapidly changing environments. Training
+                programs play a pivotal role in equipping IT professionals with the tools and techniques needed to excel
+                in project management roles. As organizations continue to rely on IT for their strategic initiatives,
+                the investment in project management training becomes not only a necessity but a strategic imperative
+                for success in the digital age.</p>
+        </div>
+
+        <div id="part3">
+            <h2>Let's get Started</h2>
+            <p>Before we get into our training lets take a test. According to the results the syllabus will be assigned
+                to you.</p>
+        </div>
+        <div class="btn">
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Take test</button>
+        </div>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">General Instructions</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                            <ul >
+                              <li>You are only allowed to start the test at the prescribed time. The timer will start from the current time irrespective of when you start the exam and end when the given time is up.</li>
+                              <li>You can see the history of test taken and scores in the Results section</li>
+                              <li>To start the test, click on 'Start' button in the exam section.</li>
+                              <li>Once the test is started the timer would run irrespective of your logged in or logged our status. So it is recommended not to logout before test completion.</li>
+                              <li>To mark an answer you need to select the option. Upon locking the selected options button will "blue".</li>
+                              <li>To reset the form click on the reset button at the bottom .</li>
+                              <li>The assigned tests should be completed within the submission time. Failing to complete the assessment will award you zero marks.</li>
+                            <li>The marks will be calculated and displayed instantly in the result section along with your percentage.</li>
+                          </ul>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onclick="window.location.href= 'pm exam.html'">Start Test</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Stay connected with KnowIT by following our social medias
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

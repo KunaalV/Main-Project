@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .login-container {
+            padding: 40px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px;
+            position: relative;
+            left: -150px;
+            top: 50px;
+        }
+
+        .login-form h2 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f34804;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(64, 64, 220);
+        }
+
+        .alternative {
+            margin-top: 20px;
+            color: #555;
+        }
+
+        .alternative a {
+            color: #f34804;
+            text-decoration: none;
+        }
+
+        .alternative a:hover {
+            text-decoration: underline;
+        }
+
+        #hello {
+            font-size: x-large;
+        }
+
+        #image {
+            position: relative;
+            top: -230px;
+            left: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/final logo.png" height="300" width="300" id="image">
+    <div class="login-container">
+        <form class="login-form">
+            <h2 id="hello">Login</h2>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Password">
+            </div>
+            <button type="submit">Login</button>
+            <p class="alternative">Don't have an account? <a href="signup.html" target="_blank">Sign up</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

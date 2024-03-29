@@ -1,0 +1,46 @@
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url(./images/course\ pic\ 1\ .jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("images\\result background2.png");
+}
+
+#result-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    
+    
+    
+}
+
+#result-box h1:first-child{
+    text-decoration: underline;
+    font-family: 'Merriweather';
+
+}
+
+#result-box h2{
+    font-family: 'Nunito';
+}
+#result-box h1{
+    font-family: 'Roboto Slab' ;
+}

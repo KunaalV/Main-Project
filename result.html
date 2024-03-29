@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+
+
+
+    <title>Test Result Page</title>
+    <!-- <section class="sub-header">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+</head> -->
+<nav class="navbar sticky-top pt-3">
+    <a href="index.html"><img src="./images/the real logo.png" alt="" /></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <!-- <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li> -->
+        </ul>
+    </div>
+    <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<style>
+    .sub-header {
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+            url(./images/course\ pic\ 1\ .jpg);
+        background-position: bottom;
+        background-size: cover;
+        text-align: center;
+        color: whitesmoke;
+        background-attachment: fixed;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #result-box {
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        height: 50vh;
+        width: 50vw;
+    }
+</style>
+</head>
+
+<body>
+
+    <div id="result-box">
+        <h2>Test Result</h2>
+        <p id="test-result">Your grade will be evaluated accordingto your score and the required syllabus and the
+            material will be provided to you soon.
+            please check your dashboard</p>
+        <!-- <button onclick="showResult()">Show Result</button> -->
+    </div>
+
+    <!-- <script>
+  function showResult() {
+    // You can customize the logic for displaying the test result here
+    var resultText = Math.random() > 0.5 ? 'Pass' : 'Fail';
+    document.getElementById('test-result').innerText = 'The test result is: ' + resultText;
+  }
+</script> -->
+
+</body>
+
+</html>
